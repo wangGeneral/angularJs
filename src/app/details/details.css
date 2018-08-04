@@ -1,0 +1,85 @@
+#productDetails>.header{
+	position: relative;
+}
+#productDetails>.header>.top{
+	width: 1900px;
+	height: 80px;
+	margin: 0 auto;
+	background: lightpink;
+}
+#productDetails>.header>.top>.top1{
+	width: 1900px;
+	height: 20px;
+	text-align: right;
+}
+#productDetails>.header>.top>.top1>a{
+	margin-right: 10px;
+}
+#productDetails>.header>.top>.top2{
+	width: 1900px;
+	height: 50px;
+	text-align: center;
+}
+#productDetails>.detailsArea{
+	height: 500px;
+}
+#productDetails>.detailsArea>.mid{
+	height: 500px;
+	width: 800px;
+	margin: 0 auto;
+}
+#productDetails>.detailsArea>.mid>div{
+	float: left;
+}
+#productDetails>.detailsArea>.mid>.small{
+	width: 200px;
+	height: 200px;
+	position: relative;
+}
+#productDetails>.detailsArea>.mid>.small>.shadow{
+	width: 100px;
+	height: 100px;
+	background: pink;
+	opacity: .5;
+	position: absolute;
+	visibility: hidden;
+}
+#productDetails>.detailsArea>.mid>.small>img{
+	width: 200px;
+	height: 200px;
+}
+#productDetails>.detailsArea>.mid>.big{
+	width: 300px;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+	visibility: hidden;
+}
+#productDetails>.detailsArea>.mid>.big>img{
+	width: 600px;
+	height: 600px;
+	position: absolute;
+}
+#productDetails>.detailsArea>.mid>.details{
+	width: 800px;
+	height: 200px;
+}
+#productDetails>.detailsArea>.mid>.details>.left{
+	width: 300px;
+	height: 200px;
+	float: left;
+}
+#productDetails>.detailsArea>.mid>.details>.right{
+	width: 300px;
+	height: 200px;
+	float: left;
+	line-height: 200px;
+	text-align: center;
+}
+#productDetails>.bottom{
+	height: 80px;
+	text-align: center;
+	font-size: 20px;
+	line-height: 80px;
+	background: lightpink;
+}

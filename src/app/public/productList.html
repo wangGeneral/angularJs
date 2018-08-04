@@ -1,0 +1,6 @@
+<div id="productList" ng-controller="indexController">
+	<figure ng-repeat="img in proList">
+		<a href="#/productDetails" ng-click="toDetails(img.proId)"><img src="{{img.proUrl}}"/></a>
+		<figcaption>{{img.proName}}</figcaption>
+	</figure>
+</div>

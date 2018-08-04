@@ -1,0 +1,53 @@
+<div id="myCar" ng-controller="myCarController">
+	<div class="head" ng-include="'/angularJs03/src/app/personalCenter/public/header.html'"></div>
+	<div class="box">
+		<div class="left" flex-test></div>
+		<div class="right">
+			<table class="table table-responsive">
+				<thead>
+					<tr>
+						<th><input type="checkbox" ng-model="isAll" ng-click="selectAll()" />全选</th>
+						<th>商品编号</th>
+						<th>商品名称</th>
+						<th>商品数量</th>
+						<th>商品价格</th>
+						<th>操作</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr ng-repeat="pro in carList">
+						<td><input type="checkbox" ng-model="pro.isChecked" ng-click="select()" /></td>
+						<td>{{pro.proId}}</td>
+						<td>{{pro.proName}}</td>
+						<td><input type="number" ng-model="pro.proNumber" style="width: 50px;" /></td>
+						<td>{{pro.proPrice}}</td>
+						<td>
+							<a class="btn btn-danger" ng-click="removePro(pro.proId)">删除</a>
+							<a class="btn btn-success" href="#/productDetails" ng-click="toDetails(pro.proId)">详情</a>
+						</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td><button ng-click="getTotal()">计算总价</button></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td><strong>{{totalPrice | currency:"¥"}}</strong></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td colspan="6" align="center">
+							<ul class="pagination">
+								<li class="disabled"><a>总共{{totalPage}}页</a></li>
+								<li class="active disabled"><a>当前第{{currentPage}}页</a></li>
+								<li><a ng-click="prevePage()">上一页</a></li>
+								<li><a ng-click="nextPage()">下一页</a></li>
+							</ul>
+						</td>
+					</tr>
+				</tfoot>
+			</table>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,80 @@
+#specilaOffer>.header{
+	position: relative;
+}
+#specilaOffer>.header>.top{
+	width: 1900px;
+	height: 80px;
+	margin: 0 auto;
+	background: lightpink;
+}
+#specilaOffer>.header>.top>.top1{
+	width: 1900px;
+	height: 20px;
+	text-align: right;
+}
+#specilaOffer>.header>.top>.top1>a{
+	margin-right: 10px;
+}
+#specilaOffer>.header>.top>.top2{
+	width: 1900px;
+	height: 50px;
+	text-align: center;
+}
+#specilaOffer>.nav{
+	height: 40px;
+	background: black;
+}
+#specilaOffer>.nav>ul{
+	display: flex;
+}
+#specilaOffer>.nav>ul>li{
+	flex: 1;
+	height: 40px;
+	list-style: none;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+}
+#specilaOffer>.nav>ul>li>a{
+	color: white;
+}
+#specilaOffer>.specilaOfferList{
+	height: 650px;
+}
+#specilaOffer>.specilaOfferList>#productList{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+#specilaOffer>.specilaOfferList>#productList>figure{
+	width: 350px;
+	height: 330px;
+}
+#specilaOffer>.specilaOfferList>#productList>figure>a>img{
+	width: 350px;
+	height: 300px;
+	transition: all .1 linear;
+}
+#specilaOffer>.specilaOfferList>#productList>figure:hover>a>img{
+	border-radius: 50%;
+}
+#specilaOffer>.specilaOfferList>#productList>figure>figcaption{
+	text-align: center;
+}
+#specilaOffer>.specilaOfferList>#productList>figure:hover>figcaption{
+	color: red;
+}
+#specilaOffer>#paganation{
+	height: 40px;
+	text-align: center;
+	font-weight: bold;
+	line-height: 40px;
+	background: lightpink;
+}
+#specilaOffer>.bottom{
+	height: 80px;
+	text-align: center;
+	font-size: 20px;
+	line-height: 80px;
+	background: lightpink;
+}

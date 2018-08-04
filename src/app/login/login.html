@@ -1,0 +1,36 @@
+<div id="login" ng-controller="loginController">
+	<div class="header" ng-include="'/angularJs03/src/app/public/header.html'"></div>
+	<div class="loginForm">
+		<div class="midForm">
+    		<fieldset>
+				<legend>请登录</legend>
+				<form action="#">
+					<div class="form-group">
+					  <div class="input-group col-xs-10 col-xs-offset-1 input-group-lg">
+					  	  <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+		           		 <input type="text" class="form-control" placeholder="请输入用户名" ng-model="userName"/>
+					  </div>
+					</div>
+					<div class="form-group">
+					  <div class="input-group col-xs-10 col-xs-offset-1  input-group-lg">
+					  	  <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+		           		 <input type="password" class="form-control" placeholder="请输入密码" ng-model="userPwd">
+					  </div>
+					</div>
+					<div class="form-group">
+					  <div class="input-group col-xs-10 col-xs-offset-1  input-group-lg">
+					  	  <span class="input-group-addon"><span class="glyphicon glyphicon-phone"></span></span>
+		           		 <input type="tel" class="form-control" placeholder="请输入手机号码" ng-model="tel">
+					  </div>
+					</div>
+					<div class="form-group">
+					  <div class="input-group col-xs-10 col-xs-offset-1  input-group-lg">
+		           		 <a class="btn btn-success btn-block" ng-click="login()" href="#/{{home}}">登录</a>
+					  </div>
+					</div>
+				</form>
+			</fieldset>
+    	</div>
+	</div>
+	<div class="bottom" ng-include="'/angularJs03/src/app/public/footer.html'"></div>
+</div>

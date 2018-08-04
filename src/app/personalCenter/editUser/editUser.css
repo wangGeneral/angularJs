@@ -1,0 +1,59 @@
+#editUser>.head{
+	position: relative;
+}
+#editUser>.head>.top{
+	width: 1900px;
+	height: 80px;
+	margin: 0 auto;
+	background: lightpink;
+}
+#editUser>.head>.top>.top1{
+	width: 1900px;
+	height: 20px;
+}
+#editUser>.head>.top>.top1>a{
+	margin-right: 10px;
+	font-size: 15px;
+}
+#editUser>.head>.top>.top1>span{
+	font-size: 20px;
+	display: block;
+	text-align: right;
+}
+#editUser>.head>.top>.top2{
+	width: 1900px;
+	height: 50px;
+	text-align: center;
+}
+#editUser>.box{
+	height: 800px;
+}
+#editUser>.box>div{
+	float: left;
+}
+#editUser>.box>.left{
+	width: 20%;
+	height: 800px;
+	background: red;
+}
+#editUser>.box>.left>ul>li{
+	list-style: none;
+	text-align: center;
+	background: blue;
+	line-height: 50px;
+}
+#editUser>.box>.left>ul>li>ul{
+	display: none;
+}
+#editUser>.box>.left>ul>li:nth-of-type(2)>ul{
+	display: block;
+}
+#editUser>.box>.left>ul>li>ul>li{
+	height: 50px;
+	line-height: 50px;
+	background: pink;
+}
+#editUser>.box>.right{
+	width: 80%;
+	height: 800px;
+}

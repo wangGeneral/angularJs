@@ -1,0 +1,59 @@
+#myOrder>.head{
+	position: relative;
+}
+#myOrder>.head>.top{
+	width: 1900px;
+	height: 80px;
+	margin: 0 auto;
+	background: lightpink;
+}
+#myOrder>.head>.top>.top1{
+	width: 1900px;
+	height: 20px;
+}
+#myOrder>.head>.top>.top1>a{
+	margin-right: 10px;
+	font-size: 15px;
+}
+#myOrder>.head>.top>.top1>span{
+	font-size: 20px;
+	display: block;
+	text-align: right;
+}
+#myOrder>.head>.top>.top2{
+	width: 1900px;
+	height: 50px;
+	text-align: center;
+}
+#myOrder>.box{
+	height: 800px;
+}
+#myOrder>.box>div{
+	float: left;
+}
+#myOrder>.box>.left{
+	width: 20%;
+	height: 800px;
+	background: red;
+}
+#myOrder>.box>.left>ul>li{
+	list-style: none;
+	text-align: center;
+	background: blue;
+	line-height: 50px;
+}
+#myOrder>.box>.left>ul>li>ul{
+	display: none;
+}
+#myOrder>.box>.left>ul>li:nth-of-type(3)>ul{
+	display: block;
+}
+#myOrder>.box>.left>ul>li>ul>li{
+	height: 50px;
+	line-height: 50px;
+	background: pink;
+}
+#myOrder>.box>.right{
+	width: 80%;
+	height: 800px;
+}

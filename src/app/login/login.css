@@ -1,0 +1,40 @@
+#login>.header{
+	position: relative;
+}
+#login>.header>.top{
+	width: 1900px;
+	height: 80px;
+	margin: 0 auto;
+	background: lightpink;
+}
+#login>.header>.top>.top1{
+	width: 1900px;
+	height: 20px;
+	text-align: right;
+}
+#login>.header>.top>.top1>a{
+	margin-right: 10px;
+}
+#login>.header>.top>.top1>a:nth-of-type(1){
+	display: none;
+}
+#login>.header>.top>.top2{
+	width: 1900px;
+	height: 50px;
+	text-align: center;
+}
+#login>.loginForm{
+	height: 500px;
+}
+#login>.loginForm>.midForm{
+	height: 500px;
+	width: 500px;
+	margin: 0 auto;
+}
+#login>.bottom{
+	height: 80px;
+	text-align: center;
+	font-size: 20px;
+	line-height: 80px;
+	background: lightpink;
+}

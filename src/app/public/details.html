@@ -1,0 +1,36 @@
+<div class="mid">
+	<div class="small">
+		<div class="shadow"></div>
+		<img id="small" src="{{imgObj.proUrl}}"/>
+	</div>
+	<div class="big">
+		<img id="big" src="{{imgObj.proUrl}}"/>
+	</div>
+	<div class="details">
+		<div class="left">
+   	  	 	<table width="300" height="200">
+   	  	 	    <tr>
+   	  	 	    	<td>是够为精品:{{imgObj.isHot}}</td>
+   	  	 	    	<td>是否被收藏：{{imgobj.isCollection}}</td>
+   	  	 	    </tr>
+   	  	 	    <tr>
+   	  	 	    	<td>商品编号：{{imgObj.proId}}</td>
+   	  	 	    	<td>商品地址：河南义务</td>
+   	  	 	    </tr>
+   	  	 	    <tr>
+   	  	 	    	<td>是否新款：{{imgObj.isNew}}</td>
+   	  	 	    	<td>商品名称：{{imgObj.proName}}</td>
+   	  	 	    </tr>
+   	  	 	    <tr>
+   	  	 	    	<td>销售量：{{imgObj.saleNumber}}</td>
+   	  	 	    	<td>商品价格：{{imgObj.proPrice}}</td>
+   	  	 	    </tr>
+   	  	 	</table>
+   	  	</div>
+   	  	<div class="right">
+   	  		<a class="btn btn-success" ng-click="addCar()">添加购物车</a>
+   	  		<a class="btn btn-warning" ng-click="addCollection()">收藏</a>
+   	  		<a class="btn btn-danger" ng-click="addBuy()">购买</a>
+   	  	</div>
+	</div>
+</div>

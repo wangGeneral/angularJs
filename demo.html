@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="src/css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="src/app/index/index.css"/>
+		<link rel="stylesheet" type="text/css" href="src/app/recommendation/recommendation.css"/>
+		<link rel="stylesheet" type="text/css" href="src/app/newProduct/newProduct.css"/>
+		<link rel="stylesheet" type="text/css" href="src/app/hotSales/hotSales.css"/>
+		<link rel="stylesheet" type="text/css" href="src/app/specilaOffer/specilaOffer.css"/>
+		<link rel="stylesheet" type="text/css" href="src/app/details/details.css"/>
+		<link rel="stylesheet" type="text/css" href="src/app/login/login.css"/>
+		<link rel="stylesheet" type="text/css" href="src/app/register/register.css"/>
+		<link rel="stylesheet" type="text/css" href="src/app/personalCenter/personalCenter.css"/>
+		<link rel="stylesheet" type="text/css" href="src/app/personalCenter/myCar/myCar.css"/>
+		<link rel="stylesheet" type="text/css" href="src/app/personalCenter/myOrder/myOrder.css"/>
+		<link rel="stylesheet" type="text/css" href="src/app/personalCenter/myCollection/myCollection.css"/>
+		<link rel="stylesheet" type="text/css" href="src/app/personalCenter/goodsList/goodsList.css"/>
+		<link rel="stylesheet" type="text/css" href="src/app/personalCenter/userList/userList.css"/>
+		<link rel="stylesheet" type="text/css" href="src/app/personalCenter/editUser/editUser.css"/>
+		<link rel="stylesheet" type="text/css" href="src/app/personalCenter/addGoods/addGoods.css"/>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			#box{
+				width: 1900px;
+				margin: 0 auto;
+			}
+			.activeBg{
+				background: red;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="box">
+			<div ng-view></div>
+		</div>
+	</body>
+</html>
+<script src="src/js/jquery-3.3.1.js" type="text/javascript" charset="utf-8"></script>
+<script src="src/js/Angular.js" type="text/javascript" charset="utf-8"></script>
+<script src="src/js/angular.route.js" type="text/javascript" charset="utf-8"></script>
+<script src="src/app/appModule.js" type="text/javascript" charset="utf-8"></script>
+<script src="src/app/appRoute.js" type="text/javascript" charset="utf-8"></script>
+<script src="src/app/index/indexController.js" type="text/javascript" charset="utf-8"></script>
+<script src="src/app/directive/appDirective.js" type="text/javascript" charset="utf-8"></script>
+<script src="src/app/recommendation/recommendation.js" type="text/javascript" charset="utf-8"></script>
+<script src="src/app/newProduct/newProduct.js" type="text/javascript" charset="utf-8"></script>
+<script src="src/app/hotSales/hotSales.js" type="text/javascript" charset="utf-8"></script>
+<script src="src/app/specilaOffer/specilaOffer.js" type="text/javascript" charset="utf-8"></script>
+<script src="src/app/directive/navBarDirective.js" type="text/javascript" charset="utf-8"></script>
+<script src="src/service/productService.js" type="text/javascript" charset="utf-8"></script>
+<script src="src/service/pageService.js" type="text/javascript" charset="utf-8"></script>
+<script src="src/app/details/productDetails.js" type="text/javascript" charset="utf-8"></script>
+<script src="src/app/directive/detailsDirective.js" type="text/javascript" charset="utf-8"></script>
+<script src="src/app/login/login.js" type="text/javascript" charset="utf-8"></script>
+<script src="src/app/register/register.js" type="text/javascript" charset="utf-8"></script>
+<script src="src/app/personalCenter/personalCenter.js" type="text/javascript" charset="utf-8"></script>
+<script src="src/app/directive/flexDirective.js" type="text/javascript" charset="utf-8"></script>
+<script src="src/service/orderService.js" type="text/javascript" charset="utf-8"></script>
+<script src="src/app/personalCenter/myCar/myCar.js" type="text/javascript" charset="utf-8"></script>
+<script src="src/app/personalCenter/myOrder/myOrder.js" type="text/javascript" charset="utf-8"></script>
+<script src="src/app/personalCenter/myCollection/myCollection.js" type="text/javascript" charset="utf-8"></script>
+<script src="src/app/personalCenter/goodsList/goodsList.js" type="text/javascript" charset="utf-8"></script>
+<script src="src/service/userService.js" type="text/javascript" charset="utf-8"></script>
+<script src="src/app/personalCenter/userList/userList.js" type="text/javascript" charset="utf-8"></script>
+<script src="src/app/personalCenter/editUser/editUser.js" type="text/javascript" charset="utf-8"></script>
+<script src="src/app/personalCenter/addGoods/addGoods.js" type="text/javascript" charset="utf-8"></script>

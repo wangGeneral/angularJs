@@ -1,0 +1,59 @@
+#myCollection>.head{
+	position: relative;
+}
+#myCollection>.head>.top{
+	width: 1900px;
+	height: 80px;
+	margin: 0 auto;
+	background: lightpink;
+}
+#myCollection>.head>.top>.top1{
+	width: 1900px;
+	height: 20px;
+}
+#myCollection>.head>.top>.top1>a{
+	margin-right: 10px;
+	font-size: 15px;
+}
+#myCollection>.head>.top>.top1>span{
+	font-size: 20px;
+	display: block;
+	text-align: right;
+}
+#myCollection>.head>.top>.top2{
+	width: 1900px;
+	height: 50px;
+	text-align: center;
+}
+#myCollection>.box{
+	height: 800px;
+}
+#myCollection>.box>div{
+	float: left;
+}
+#myCollection>.box>.left{
+	width: 20%;
+	height: 800px;
+	background: red;
+}
+#myCollection>.box>.left>ul>li{
+	list-style: none;
+	text-align: center;
+	background: blue;
+	line-height: 50px;
+}
+#myCollection>.box>.left>ul>li>ul{
+	display: none;
+}
+#myCollection>.box>.left>ul>li:nth-of-type(3)>ul{
+	display: block;
+}
+#myCollection>.box>.left>ul>li>ul>li{
+	height: 50px;
+	line-height: 50px;
+	background: pink;
+}
+#myCollection>.box>.right{
+	width: 80%;
+	height: 800px;
+}

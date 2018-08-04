@@ -1,0 +1,59 @@
+#userList>.head{
+	position: relative;
+}
+#userList>.head>.top{
+	width: 1900px;
+	height: 80px;
+	margin: 0 auto;
+	background: lightpink;
+}
+#userList>.head>.top>.top1{
+	width: 1900px;
+	height: 20px;
+}
+#userList>.head>.top>.top1>a{
+	margin-right: 10px;
+	font-size: 15px;
+}
+#userList>.head>.top>.top1>span{
+	font-size: 20px;
+	display: block;
+	text-align: right;
+}
+#userList>.head>.top>.top2{
+	width: 1900px;
+	height: 50px;
+	text-align: center;
+}
+#userList>.box{
+	height: 800px;
+}
+#userList>.box>div{
+	float: left;
+}
+#userList>.box>.left{
+	width: 20%;
+	height: 800px;
+	background: red;
+}
+#userList>.box>.left>ul>li{
+	list-style: none;
+	text-align: center;
+	background: blue;
+	line-height: 50px;
+}
+#userList>.box>.left>ul>li>ul{
+	display: none;
+}
+#userList>.box>.left>ul>li:nth-of-type(2)>ul{
+	display: block;
+}
+#userList>.box>.left>ul>li>ul>li{
+	height: 50px;
+	line-height: 50px;
+	background: pink;
+}
+#userList>.box>.right{
+	width: 80%;
+	height: 800px;
+}

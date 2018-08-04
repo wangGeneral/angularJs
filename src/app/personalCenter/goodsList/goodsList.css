@@ -1,0 +1,59 @@
+#goodsList>.head{
+	position: relative;
+}
+#goodsList>.head>.top{
+	width: 1900px;
+	height: 80px;
+	margin: 0 auto;
+	background: lightpink;
+}
+#goodsList>.head>.top>.top1{
+	width: 1900px;
+	height: 20px;
+}
+#goodsList>.head>.top>.top1>a{
+	margin-right: 10px;
+	font-size: 15px;
+}
+#goodsList>.head>.top>.top1>span{
+	font-size: 20px;
+	display: block;
+	text-align: right;
+}
+#goodsList>.head>.top>.top2{
+	width: 1900px;
+	height: 50px;
+	text-align: center;
+}
+#goodsList>.box{
+	height: 800px;
+}
+#goodsList>.box>div{
+	float: left;
+}
+#goodsList>.box>.left{
+	width: 20%;
+	height: 800px;
+	background: red;
+}
+#goodsList>.box>.left>ul>li{
+	list-style: none;
+	text-align: center;
+	background: blue;
+	line-height: 50px;
+}
+#goodsList>.box>.left>ul>li>ul{
+	display: none;
+}
+#goodsList>.box>.left>ul>li:nth-of-type(1)>ul{
+	display: block;
+}
+#goodsList>.box>.left>ul>li>ul>li{
+	height: 50px;
+	line-height: 50px;
+	background: pink;
+}
+#goodsList>.box>.right{
+	width: 80%;
+	height: 800px;
+}

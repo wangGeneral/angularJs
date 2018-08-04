@@ -1,0 +1,60 @@
+#personalCenter>.head{
+	position: relative;
+}
+#personalCenter>.head>.top{
+	width: 1900px;
+	height: 80px;
+	margin: 0 auto;
+	background: lightpink;
+}
+#personalCenter>.head>.top>.top1{
+	width: 1900px;
+	height: 20px;
+}
+#personalCenter>.head>.top>.top1>a{
+	margin-right: 10px;
+	font-size: 15px;
+}
+#personalCenter>.head>.top>.top1>span{
+	font-size: 20px;
+	display: block;
+	text-align: right;
+}
+#personalCenter>.head>.top>.top2{
+	width: 1900px;
+	height: 50px;
+	text-align: center;
+}
+#personalCenter>.box{
+	height: 800px;
+}
+#personalCenter>.box>div{
+	float: left;
+}
+#personalCenter>.box>.left{
+	width: 20%;
+	height: 800px;
+	background: red;
+}
+#personalCenter>.box>.left>ul>li{
+	list-style: none;
+	text-align: center;
+	background: blue;
+	line-height: 50px;
+}
+#personalCenter>.box>.left>ul>li>ul{
+	display: none;
+}
+#personalCenter>.box>.left>ul>li:nth-of-type(3)>ul{
+	display: block;
+}
+#personalCenter>.box>.left>ul>li>ul>li{
+	height: 50px;
+	line-height: 50px;
+	background: pink;
+}
+#personalCenter>.box>.right{
+	width: 80%;
+	height: 800px;
+	background: yellow;
+}
